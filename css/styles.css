@@ -198,11 +198,12 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  outline: none;
 }
-/* .button:hover,
+.button:hover,
 .button:focus {
   background-color: var(--hero-button-hover-color);
-} */
+}
 /* ========================= Конец Героя ========================= */
 /* ========================= Особенности ========================= */
 .feature {
@@ -319,6 +320,7 @@ body {
   align-items: center;
   border-radius: 50%;
   fill: var(--normal-icon-color);
+  outline: none;
 }
 .social-link:hover,
 .social-link:focus {
@@ -353,6 +355,7 @@ body {
   fill: var(--normal-icon-color);
   border: 1px solid var(--normal-icon-color);
   border-radius: 4px;
+  outline: none;
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -373,7 +376,7 @@ body {
 .filter-list > .item:not(:last-child) {
   margin-right: 8px;
 }
-.filter-item {
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -382,9 +385,10 @@ body {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  outline: none;
 }
-.filter-item:hover,
-.filter-item:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--primary-background-color);
   background-color: var(--primary-accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -403,16 +407,17 @@ body {
 .portfolio-link {
   text-decoration: none;
   color: inherit;
+  display: block;
+  outline: none;
 }
 .portfolio-item {
   margin-bottom: 30px;
   margin-right: 30px;
   max-width: 370px;
   flex-basis: calc((100% - 90px) / 3);
-  cursor: pointer;
 }
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -511,6 +516,7 @@ body {
   background-color: var(--footer-social-bg);
   border-radius: 50px;
   fill: var(--primary-background-color);
+  outline: none;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
