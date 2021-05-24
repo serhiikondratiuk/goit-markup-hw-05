@@ -105,6 +105,7 @@ body {
   color: var(--primary-accent-color);
   text-decoration: none;
   margin-right: 93px;
+  letter-spacing: 0.03em;
 }
 .header-studio {
   color: var(--logo-secondary-color);
@@ -186,6 +187,7 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   margin-bottom: 30px;
+  letter-spacing: 0.06em;
 }
 .button {
   font-weight: 700;
@@ -208,7 +210,6 @@ body {
 /* ========================= Особенности ========================= */
 .feature {
   background-color: var(--secondary-background-color);
-  width: 270px;
   height: 120px;
   display: flex;
   justify-content: center;
@@ -237,11 +238,13 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 .features-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
 }
 /* ========================= Конец Оссобенностей ========================= */
 /* ========================= Чем мы занимаемся ========================= */
@@ -337,6 +340,7 @@ body {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+  letter-spacing: 0.03em;
 }
 .clients-list {
   list-style: none;
@@ -425,11 +429,13 @@ body {
   font-size: 18px;
   line-height: 2;
   margin-bottom: 4px;
+  letter-spacing: 0.03em;
 }
 .item-text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
 }
 .portfolio-list .card-thumb {
   padding: 20px 24px;
@@ -447,6 +453,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   align-items: center;
+  letter-spacing: 0.03em;
 }
 .map {
   color: inherit;
@@ -461,6 +468,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-background-color);
+  letter-spacing: 0.03em;
 }
 .footer-studio {
   color: var(--primary-background-color);
@@ -469,6 +477,7 @@ body {
   display: inline-block;
   margin-bottom: 20px;
   margin-right: 0;
+  letter-spacing: 0.03em;
 }
 .footer-list {
   list-style: none;
