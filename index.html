@@ -58,7 +58,7 @@
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button class="button" type="button">Заказать услугу</button>
+        <button class="button" type="button" data-modal-open>Заказать услугу</button>
       </section>
       <!--Особенности-->
       <section class="section features-section">
@@ -117,14 +117,19 @@
         <div class="container">
           <h2 class="occupations-header">Чем мы занимаемся</h2>
           <ul class="occupations-list">
-            <li class="item">
+            <li class="occupations-item">
               <img src="./images/1.jpg" alt="Разработчик набирает код" width="370" height="294" />
+              <h3 class="occupations-description">Десктопные приложения</h3>
             </li>
-            <li class="item">
+
+            <li class="occupations-item">
               <img src="./images/2.jpg" alt="Разработка приложения" width="370" height="294" />
+              <h3 class="occupations-description">Мобильные приложения</h3>
             </li>
-            <li class="item">
+
+            <li class="occupations-item">
               <img src="./images/3.jpg" alt="Дизайнер с планшетом" width="370" height="294" />
+              <h3 class="occupations-description">Дизайнерские решения</h3>
             </li>
           </ul>
         </div>
@@ -407,5 +412,17 @@
         </div>
       </div>
     </footer>
+    <!-- Модальное окно -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./images/icons.svg#close-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Скрипты -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
